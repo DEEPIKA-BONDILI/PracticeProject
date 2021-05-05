@@ -25,21 +25,22 @@ public class DeptPara extends GenericServlet {
      */
     public DeptPara() {
         super();
-        System.out.println("constructor");
+        System.out.println("Deptpara constructor");
     }
 
 	/**
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		System.out.println("init");
+		System.out.println("init method...");
+		System.out.println("init called..");
 	}
 
 	/**
 	 * @see Servlet#destroy()
 	 */
 	public void destroy() {
-		System.out.println("destroy");
+		System.out.println("destroy...");
 	}
 
 	/**
